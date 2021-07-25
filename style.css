@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+}
+
+.container {
+    display: flex;
+    width: 1160px;
+    margin: auto;
+    min-height: 125vh;
+    background: linear-gradient(#e1e8f8, #bfcada, #f3e3d0);
+}
+
+.header {
+    display: flex;
+}
+
+.header .info {
+    position: relative;
+    margin: 40px 0 0 110px;
+
+}
+
+.header .info h5 {
+    margin: 10px 0 0 0;
+}
+
+.header .info h5 a {
+    color: #2c3e50;
+}
+
+.header .info p {
+    font-size: 40px;
+    margin: 70px 0 0 -3px;
+
+}
+
+.header .logo {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin: 28px 0 0 890px;
+}
+
+.comment {
+    position: absolute;
+    margin: 250px 0 0 0;
+    height: 150px;
+    width: 1160px;
+    border-bottom: 1px solid #656463;
+}
+
+.comment .city-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 0 0 180px;
+}
+.comment .city-list .city-list-row {
+    box-sizing: border-box;
+    width: calc(25% - 2px);
+    padding: 7px 10px;
+    background: #d0d9e9;
+    margin: 1px;
+}
+
+.form {
+    position: absolute;
+    margin: 500px 0 0 110px;
+}
+
+.form .inputBox {
+    position: relative;
+    padding: 20px 0 0 0;
+}
+
+.form .inputBox p {
+    margin:0 0 10px 0;
+}
+
+.form .inputBox label input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.form .inputBox label textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    resize: none;
+}
+
+.form .inputBox #button {
+    position: relative;
+    margin: 0 0 0 60%;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    margin: 1000px 0 0 0;
+    position: absolute;
+    padding: 10px;
+    width: 1160px;
+}
+
+footer .footer {
+    display: flex;
+    position: relative;
+    margin: 10px 0 0 110px;
+}
+
+footer .footer .logo {
+}
+
+footer .footer h5 {
+
+}
+
+footer .footer a {
+    color: #2c3e50;
+}
+
+footer .info-footer {
+    position: relative;
+    margin: 20px 0 0 40px;
+}
+
+footer .info-footer h5 {
+    margin: 5px 0 0 0;
+}
+
+footer .future-footer {
+    margin: 12px 0 0 0;
+}
+
+footer .future-footer p {
+    font-size: 14px;
+}
